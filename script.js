@@ -15,9 +15,9 @@ emailid = email_id.value;
 
  alert(
   "First Name: " + firstname + "\n" +
-  "Last Name:" + lastname + "\n" +
-  "phone Number:" + phonenumber + "\n" +
-  "Email ID:" + emailid
+  "Last Name: " + lastname + "\n" +
+  "phone Number: " + phonenumber + "\n" +
+  "Email ID: " + emailid
  );
 })
 
