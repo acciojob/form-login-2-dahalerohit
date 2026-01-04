@@ -8,15 +8,15 @@ let email_id = document.getElementById('EmailID');
 
 form.addEventListener("submit", (e) =>{
 e.preventDefault();
-firstname = first_name.value;
-lastname = last_name.value;
-phonenumber = phone_number.value;
-emailid = email_id.value;
+let firstname = first_name.value;
+let lastname = last_name.value;
+let phonenumber = phone_number.value;
+let emailid = email_id.value;
 
  alert(
   "First Name: " + firstname + "\n" +
   "Last Name: " + lastname + "\n" +
-  "phone Number: " + phonenumber + "\n" +
+  "Phone Number: " + phonenumber + "\n" +
   "Email ID: " + emailid
  );
 })
